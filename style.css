@@ -1,0 +1,145 @@
+.head{
+  background-image: url(image.png);
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.text{
+  font-size: 50px;
+  background-color:  #1a1a1a;
+  margin-top: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.selection button{
+  background-color: #70573d;
+  border: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: Georgia, sans-serif;
+  font-size: 25px;
+  color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  color: antiquewhite;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: Georgia, sans-serif;
+  font-size: 25px;
+}
+
+.head_text{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #fefefe;
+  font-family: 'Ubuntu';
+  letter-spacing: 0.2em;
+  text-rendering: optimizeLegibility;
+}
+
+.content{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.open{
+  float: right;
+  background-color: #70573d;
+  border-radius: 10px;
+  width: 200px;
+  color: antiquewhite;
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border: 2px solid antiquewhite;
+}
+
+.open:hover{
+  background-color: #1a1a1a;
+  color: white;
+}
+
+
+body{
+  background-color: #1a1a1a;
+}
+
+.nav a{
+  margin: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.calculator{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 150px;
+  border: 3px solid antiquewhite;
+  border-radius: 10px;
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+  color:antiquewhite;
+  align-items: flex-start;
+}
+
+.selection{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.selection input{
+  background-color: #70573d;
+  color: antiquewhite;
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.selection select{
+  background-color: #70573d;
+  color: antiquewhite;
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.selection option{
+  background-color: #70573d;
+  color: antiquewhite;
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+}
+
+.cost{
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 480px){
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}

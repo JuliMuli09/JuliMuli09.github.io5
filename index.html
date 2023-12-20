@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js" defer></script>
+  <link/>
+</head>
+
+<body>
+
+<header class="head">
+  <div class="head_text">
+    <span class="text anim-text-flow">КАЛЬКУЛЯТОР</span>
+  </div>
+</header>
+
+<section id ="calculator" div class="calculator">
+  <div class="selection">
+    Выберите вид красок:
+    <select onchange="calc()" id="type_supplies">
+      <option value="580">Акварельные</option>
+      <option value="775">Гуашевые</option>
+      <option value="1695">Масляные</option>
+      <option value="720">Акриловые</option>
+    </select><br/>
+    Укажите количество: <input type="text" id="count" value="" onchange="calc()" onkeypress="return isNumberKey(event)"/>
+    <button onclick="calc()">Рассчитать стоимость</button>
+    <div id="result"></div>
+  </div>
+</section>
+</body>
+</html>
